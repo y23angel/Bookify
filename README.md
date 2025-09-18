@@ -42,15 +42,14 @@ An Online Book Store where users can browse books, add them to their cart, and p
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repository & Install:
    ```bash
-   git clone https://github.com/tarandeepk02/Bookify.git
-   ```
-2. Install dependencies:
-   ```
+   git clone https://github.com/y23angel/Bookify.git
+   cd Bookify
    npm install
    ```
-3. Configure MongoDB: Update database credentials in models/config/config.js
+   
+2. Configure MongoDB: Update database credentials in models/config/config.js
    ```
    (() => {
     const config = {}
